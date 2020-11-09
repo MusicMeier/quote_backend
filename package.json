@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for quotes app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js ",
+    "dev": "nodemon index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MusicMeier/quote_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MusicMeier/quote_backend/issues"
+  },
+  "homepage": "https://github.com/MusicMeier/quote_backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "nodemon": "^2.0.6",
+    "sqlite3": "^5.0.0"
+  }
+}

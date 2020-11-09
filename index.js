@@ -15,10 +15,22 @@ class Category extends Model {
 
 }
 
-app.get('/category', (request, response) => {
+class Quote extends Model {
+    static tableName = 'quotes'
+
+}
+
+app.get('/categories', (request, response) => {
     Category.query()
         .then( categories => {
             response.json({ categories })
+        })
+})
+
+app.get('/quotes', (request, response) => {
+    Quote.query()
+        .then( quotes => {
+            response.json({ quotes })
         })
 })
 

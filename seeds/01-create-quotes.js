@@ -469,5 +469,9 @@ exports.seed = async knex => {
     description: "Older people shouldn’t eat health food, they need all the preservatives they can get.",
     author: "Robert Orben",
     category_id: 4
+  },{
+    description: "The most dangerous phrase in the language is 'we've always done it this way.'",
+    author: "Rear Admiral Grace Hopper",
+    category_id: 3
   }])
 };
